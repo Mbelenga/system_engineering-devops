@@ -1,7 +1,9 @@
 #!/bin/bash
 
-for dir in *; do
-  if [ -d "$dir" ]; then
-    chmod u+x "$dir"
+for item in * 
+do
+  if [ -d "$item" ]
+  then
+    chmod +x "$item"
   fi
 done
