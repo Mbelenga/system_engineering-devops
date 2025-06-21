@@ -2,6 +2,6 @@
 
 for dir in *; do
   if [ -d "$dir" ]; then
-    chmod a+x "$dir"
+    chmod u+x "$dir"
   fi
 done
